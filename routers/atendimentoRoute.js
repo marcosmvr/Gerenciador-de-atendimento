@@ -1,5 +1,6 @@
 const { Router } = require('express')
 const router = Router()
+const AtendimentoController = require('../controllers/atendimentoController')
 
 router.get('/atendimentos', (req, res) => {
   res.send('Chegou aqui, estamos listando todos os atendimentos...')
