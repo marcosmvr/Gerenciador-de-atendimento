@@ -7,5 +7,5 @@ app.listen(3000, error => {
     console.log('Deu erro')
     return
   }
-  console.log('Subiu showw')
+  console.log('Rodando na porta 3000')
 })
